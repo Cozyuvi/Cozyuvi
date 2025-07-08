@@ -14,7 +14,7 @@ public class MongoDBHelper {
 
     public MongoDBHelper() {
         // Replace <username>, <password>, and <cluster-url> with your actual details
-        String uri = "mongodb+srv://yuvi:yuvithakur1@cluster0.fc3kjz9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        String uri = "your uri";
         mongoClient = MongoClients.create(uri);
         database = mongoClient.getDatabase("HostelManagemant");
     }
